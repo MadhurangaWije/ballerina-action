@@ -1,4 +1,5 @@
-FROM kanishkaw/patched-ballerina-sl-alpha2
+# FROM kanishkaw/patched-ballerina-sl-alpha2
+FROM choreoipaas/choreo-ballerina:swan-lake-alpha2
 
 ADD entrypoint.sh /entrypoint.sh
 
